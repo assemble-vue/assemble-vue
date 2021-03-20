@@ -1,0 +1,24 @@
+{
+  "name": "adv-compositions",
+  "version": "0.0.0",
+  "description": "compositions API for Vue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/actualchao/adv-compositions.git"
+  },
+  "keywords": [
+    "Vue3",
+    "compositions",
+    "setup"
+  ],
+  "author": "actualchao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/actualchao/adv-compositions/issues"
+  },
+  "homepage": "https://github.com/actualchao/adv-compositions#readme"
+}

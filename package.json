@@ -1,0 +1,37 @@
+{
+  "name": "assemble-vue",
+  "private": true,
+  "scripts": {
+    "preinstall": "node ./scripts/checkYarn.js"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/eslint-plugin-tslint": "^4.18.0",
+    "@typescript-eslint/parser": "^4.18.0",
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "husky": "=4",
+    "lerna": "^3.22.1",
+    "lint-staged": ">=10",
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.3"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "loadsh": "^0.0.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "packages/**/*.{tsx,ts}": [
+      "prettier --write",
+      "eslint"
+    ]
+  }
+}
