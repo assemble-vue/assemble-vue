@@ -1,0 +1,28 @@
+{
+  "name": "@assemble/utils",
+  "version": "0.0.0",
+  "description": "compositions API for Vue",
+  "main": "./lib/index.js",
+  "module": "./es/index.js",
+  "types": "./lib/index.d.ts",
+  "unpkg": "dist/ahooks.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/assemble-vue/assemble-vue.git"
+  },
+  "keywords": [
+    "Vue3",
+    "compositions",
+    "setup"
+  ],
+  "author": "actualchao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/assemble-vue/assemble-vue/issues"
+  },
+  "homepage": "https://github.com/assemble-vue/assemble-vue"
+}
