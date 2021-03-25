@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/assemble-vue/assemble-vue",
   "dependencies": {
-    "@assemble/utils": "0.0.0"
+    "@assemble/utils": "^0.0.0"
   }
 }
