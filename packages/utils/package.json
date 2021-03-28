@@ -1,5 +1,5 @@
 {
-  "name": "@assemble/utils",
+  "name": "@assembles/utils",
   "version": "0.0.1-alpha.0",
   "description": "compositions API for Vue",
   "main": "./lib/index.js",
