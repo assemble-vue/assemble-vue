@@ -31,10 +31,7 @@ jobs:
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org/
-      - run: yarn
-      - run: cd packages/assemble
-      - run: npm publish
-      - run: cd ../utils
-      - run: npm publish
+      - run: cd packages/assemble &&  npm publish
+      - run: cd packages/utils &&  npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
