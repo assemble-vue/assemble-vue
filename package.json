@@ -2,7 +2,9 @@
   "name": "assemble-vue",
   "private": true,
   "scripts": {
-    "preinstall": "node ./scripts/checkYarn.js"
+    "preinstall": "node ./scripts/checkYarn.js",
+    "test": "lerna run build",
+    "pub": "lerna publish"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.1",
