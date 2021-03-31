@@ -1,6 +1,6 @@
 {
   "name": "@assembles/vue-hooks",
-  "version": "0.0.0",
+  "version": "0.0.0-hotfix",
   "description": "compositions API for Vue",
   "main": "./lib/index.js",
   "module": "./es/index.js",
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/assemble-vue/assemble-vue",
   "dependencies": {
-    "@assembles/utils": "^0.0.0"
+    "@assembles/utils": "^0.0.0-hotfix"
   },
   "gitHead": "e23b34c27c99912da2c0057e60b6fb147f4b74cf"
 }
