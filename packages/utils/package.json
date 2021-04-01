@@ -1,6 +1,6 @@
 {
   "name": "@assembles/utils",
-  "version": "0.0.0",
+  "version": "0.0.0-hotfix",
   "description": "compositions API for Vue",
   "main": "./lib/index.js",
   "module": "./es/index.js",
